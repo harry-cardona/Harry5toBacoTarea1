@@ -52,3 +52,39 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 700px){
+  
+#nav{  
+    width: 650px;
+    border-radius: 15px;
+}
+
+.datos a, .datos li{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.datos a:hover, .datos li:hover{
+    width: 140px;
+    height: 55px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 15px;
+}
+
+#uno{
+    width: 500px;
+}
+ 
+#dos{
+    width: 650px;
+    height: 680px;
+}
+  
+
+}
